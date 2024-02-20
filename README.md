@@ -4,9 +4,12 @@
 ### Department of Control and Automation Engineering
 Public Repository for 'IoT for Embedded Devices', a graduate course offered by the Department of Control and Automation Engineering at the São Paulo State University (UNESP), Sorocaba campus
 
-#### References
-
-#### Week 01: 
+#### References:
+*
+*
+*
+*
+#### Week 01: [![PDF](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3APDF_file_icon.svg&psig=AOvVaw1B_nkFIcF2dd5AELQkAYYK&ust=1708548701927000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMiKjofmuoQDFQAAAAAdAAAAABAD)](lessons/week_01/week_01_Course_Presentation_IoT_Dhiego.pdf)
 * 
 #### Week 02:
 * 
