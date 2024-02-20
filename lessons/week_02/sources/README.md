@@ -10,6 +10,7 @@ The pictures shows a Wi-Fi network with 3 devices:
 3. Run Wireshark on your computer, capturing packets through its Wi-Fi network adapter.
 4. Access the TVBox from your computer using SSH commands through a terminal (such as PuTTY, Tera Term, etc.).
 5. Observe the packets in Wireshark and verify how SSH messages are exchanged between your computer and the TVBox.
-![Cisco Packet Tracer - Internet Protocols](../../../images/week_02_WiFi_LAN.png) 
+
+![WiFi Network](../../../images/week_02_WiFi_LAN.png) 
 
 
