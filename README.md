@@ -9,7 +9,7 @@ Public Repository for 'IoT for Embedded Devices', a graduate course offered by t
 *
 *
 *
-#### Week 01: Course Presentation <a href="lessons/week_01/week_01_Course_Presentation_IoT_Dhiego.pdf"> <img src="images/pdf_logo1.png" alt="PDF" width="20" height="20" /> </a> 
+#### Week 01: Course Presentation <a href="lessons/week_01/week_01_Course_Presentation_IoT_Dhiego.pdf"> <img src="images/pdf_logo1.png" alt="PDF" width="22" height="22" /> </a> 
 
 * 
 #### Week 02:
