@@ -5,6 +5,8 @@ The pictures shows a Wi-Fi network with 3 devices:
 2. Your notebook
 3. The TVBox embedded with armbian operating system, running a SSH server.
 
+To access the TVBox from your computer via the SSH service, you must follow these steps:
+
 1. Create a Wi-Fi network by setting up your mobile phone as a Wi-Fi router.
 2. Connect your notebook and TVBox to your mobile phone's Wi-Fi network.
 3. Run Wireshark on your computer, capturing packets through its Wi-Fi network adapter.
