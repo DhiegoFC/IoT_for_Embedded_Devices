@@ -9,9 +9,10 @@ Public Repository for 'IoT for Embedded Devices', a graduate course offered by t
 *
 *
 *
-#### Week 01: Course Presentation <a href="lessons/week_01/week_01_Course_Presentation_IoT_Dhiego.pdf"> <img src="images/pdf_logo1.png" alt="PDF" width="23" height="23" /> </a> and OSI Model <a href="lessons/week_01/week_01_OSI_Model_IoT_Dhiego.pdf"> <img src="images/pdf_logo1.png" alt="PDF" width="23" height="23" /> </a>
+**Week 01:** Course Presentation <a href="lessons/week_01/week_01_Course_Presentation_IoT_Dhiego.pdf"> <img src="images/pdf_logo1.png" alt="PDF" width="23" height="23" /> </a> and OSI Model <a href="lessons/week_01/week_01_OSI_Model_IoT_Dhiego.pdf"> <img src="images/pdf_logo1.png" alt="PDF" width="23" height="23" /> </a>
 * Course Presentation
 * Introduction of OSI Model Stack 
-#### Week 02:
-* Linux Operating System
+**Week 02:** Linux Operating System <a href="lessons/week_02/week_02_Linux_Operating_System_Dhiego.pdf"> <img src="images/pdf_logo1.png" alt="PDF" width="23" height="23" /> </a>
+* History, Basic command and network commands 
+
 
