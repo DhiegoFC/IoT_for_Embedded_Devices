@@ -6,6 +6,6 @@ The picture shows a house connected to a Internet Service Provider (ISP) by mean
 * Switch the status of each IoT devices to see if there are changes
 * Use the simulation function in Packet Tracer to observe the trafic flow and the OSI model Stack
 
-![Cisco Packet Tracer - Internet Protocols](../images/week_01_Internet_Protocols.png)
+![Cisco Packet Tracer - Internet Protocols](IoT_for_Embedded_Devices/images/week_01_Internet_Protocols.png)
 
 
