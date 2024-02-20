@@ -1,5 +1,5 @@
 
-# Internet Protocols on Cisco Packet Tracer
+# SSH service on Wi-Fi network 
 The pictures shows a Wi-Fi network with 3 devices:
 1. Your mobile phone acting as a Wi-Fi router
 2. Your notebook
