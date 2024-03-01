@@ -16,3 +16,7 @@ Public Repository for 'IoT for Embedded Devices', a graduate course offered by t
 * Linux Operating System <a href="lessons/week_02/week_02_Linux_Operating_System_IoT_Dhiego.pdf"> <img src="images/pdf_logo1.png" alt="PDF" width="23" height="23" /> </a>
 * Exercise: [WiFi LAN](lessons/week_02/sources) 
 
+**Week 03:** 
+* GitHub <a href="lessons/week_03/week_03_GitHub_IoT_Dhiego.pdf"> <img src="images/pdf_logo1.png" alt="PDF" width="23" height="23" /> </a>
+* Exercise: [GitHub](lessons/week_03/sources) 
+
