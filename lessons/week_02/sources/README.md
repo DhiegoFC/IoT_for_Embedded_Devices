@@ -15,4 +15,20 @@ To access the TVBox from your computer via the SSH service, you must follow thes
 
 ![WiFi Network](../../../images/week_02_WiFi_LAN.png) 
 
+# SSH Service on VirtualBox network (in case of not having WiFi connectivy on Armbian TVBox)
+
+The pictures shows Virtual Machines (VM) running on VirtualBox:
+1. One VM running Debian 12 (bookworm) with Graphical Interface (GUI).
+2. One VM running Debian 12 (bookworm) without GUI.
+3. VirtualBox acting as switch/router
+
+To access the VM embbeded with Debian 12 GUI via the SSH service, you must follow these steps:
+1. Verify if both VM network interfaces are configured as NAT.
+2. Check the IP address of Debian 12 GUI VM.
+3. Install and Run Wireshark on Debian 12 GUI VM.
+4. Install SSH Server on Debian 12 GUI VM (sudo apt-get install ssh).
+5. Install SSH client on Debian 12 without GUI (sudo apt-get install openss.h-client)
+6. Access the Debian 12 GUI from Debian 12 without GUI using SSH commands.
+7. Observe the packets in Wireshark and verify how SSH messages are exchanged between these two VMs.
+
 
