@@ -15,7 +15,7 @@ To access the TVBox from your computer via the SSH service, you must follow thes
 
 ![WiFi Network](../../../images/week_02_WiFi_LAN.png) 
 
-# SSH Service on VirtualBox network (in case of not having WiFi connectivy in Armbian TVBox)
+# SSH Service on VirtualBox network (in case of not having WiFi connectivy on Armbian TVBox)
 
 The pictures shows two Virtual Machines (VM) running on VirtualBox:
 1. One VM running Debian 12 (bookworm) with Graphical Interface (GUI).
