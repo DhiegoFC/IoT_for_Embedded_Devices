@@ -31,7 +31,7 @@ To access the Debian 12 GUI VM via the SSH service, you must follow these steps:
 6. Access the Debian 12 GUI from Debian 12 without GUI by means of SSH commands.
 7. Observe the packets in Wireshark and verify how SSH messages are exchanged between these two VMs.
 
-*Warning*: download the Debian 12 (Bookworm) image [here](https://www.debian.org/distrib/netinst) . During the instalation proceedings, unmark Desktop Environment box to not install Graphical Interface on Debian 12 without GUI.
+**Warning**: download the Debian 12 (Bookworm) image [here](https://www.debian.org/distrib/netinst) . During the instalation proceedings, unmark Desktop Environment box to not install Graphical Interface on Debian 12 without GUI VM.
 
 ![VirtualBox Network](../../../images/week_02_VirtualBox_LAN.png) 
 
