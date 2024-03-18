@@ -22,3 +22,7 @@ Public Repository for 'IoT for Embedded Devices', a graduate course offered by t
 * Exercise: [IoT Project on GitHub](lessons/week_03/sources) 
 * Introduction to Git and Version <a href="https://www.dataquest.io/course/git-and-vcs/"> <img src="images/DQ-Logo.png" alt="PDF" width="90" height="20" /> </a>
 
+**Week 04:** 
+* IoT Introduction <a href="lessons/week_04/week_4_IoT_Introduction_IoT_Dhiego.pdf"> <img src="images/pdf_logo1.png" alt="PDF" width="23" height="23" /> </a>
+* Exercise: [IoT Platform](lessons/week_04/sources) 
+
