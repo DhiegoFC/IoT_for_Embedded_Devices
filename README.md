@@ -25,3 +25,7 @@ Public Repository for 'IoT for Embedded Devices', a graduate course offered by t
 **Week 04:** 
 * IoT Introduction <a href="lessons/week_04/week_4_IoT_Introduction_IoT_Dhiego.pdf"> <img src="images/pdf_logo1.png" alt="PDF" width="23" height="23" /> </a>
 * Exercise: [IoT Cloud Platform](lessons/week_04/sources)
+
+**Week 05:** 
+* Embedded Devices for IoT <a href="lessons/week_05/week_5_Embedded_Devices_for_IoT_IoT_Dhiego.pdf"> <img src="images/pdf_logo1.png" alt="PDF" width="23" height="23" /> </a>
+* Exercise: [ESP32 Integration to Arduino IoT Cloud](lessons/week_05/sources)
