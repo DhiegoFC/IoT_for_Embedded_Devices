@@ -8,7 +8,7 @@
 
 As Guindance, you also can  watch these youtube films: 
 
-Arduino IoT Cloud: <a href="https://www.youtube.com/watch?v=qQGM5oBKAZc"> <img src="../../../images/youtube.jpg" alt="youtube" width="90" height="20" /> </a>
+Arduino IoT Cloud: <a href="https://www.youtube.com/watch?v=qQGM5oBKAZc"> <img src="../../../images/youtube.jpg" alt="youtube" width="80" height="17" /> </a>
 
 
 
