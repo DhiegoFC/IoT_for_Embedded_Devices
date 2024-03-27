@@ -5,8 +5,20 @@
 #### IoT for Embedded Devices
 Public Repository for 'IoT for Embedded Devices', a graduate course offered by the Department of Control and Automation Engineering at the São Paulo State University (UNESP), Sorocaba campus
 
-#### References:
-*
+#### Objectives:
+* Understand the foundational and advanced concepts of the Internet of Things (IoT).
+* Learn to work with various embedded systems for IoT, such as Arduino, ESP32, TV Boxes, and Raspberry Pi.
+* Develop skills in programming embedded systems for IoT, including communication protocols, sensor integration, internet connectivity, and cloud integration.
+* Acquire knowledge about the main communication protocols used by IoT devices for internet access and cloud communication.
+* Initiate and progress IoT projects from conception to development.
+* Enhance abilities to analyze and interpret data from IoT devices.
+#### Evaluation:
+This course is designed to foster the creation and development of an IoT project, allowing students to amalgamate theoretical knowledge with practical expertise. It is required that all students' IoT projects be shared on GitHub to contribute to and benefit the wider community.
+
+#### Prerequisites:
+* Proficient programming skills in Python and C.
+* Excellent understanding of Network Stack Protocols.
+* A strong inclination towards innovation and the creation of new technologies.
 
 **Week 01:** 
 * Course Presentation <a href="lessons/week_01/week_01_Course_Presentation_IoT_Dhiego.pdf"> <img src="images/pdf_logo1.png" alt="PDF" width="23" height="23" /> </a>
