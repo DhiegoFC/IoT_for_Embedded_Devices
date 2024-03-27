@@ -17,6 +17,8 @@
 #include "thingProperties.h"
 
 const int ledPin = 22; // Replace with the pin your LED is connected to
+unsigned long lastTempMeasurement = 0;
+const long tempInterval = 10000; // Interval between temperature readings, e.g., 10 seconds
 
 void setup() {
   // Initialize serial and wait for port to open:
@@ -47,18 +49,18 @@ void setup() {
 
 void loop() {
   ArduinoCloud.update();
-  // Your code here 
   
-   float temperatureC = temperatureRead();
-
-  // Update the temperature variable on Arduino IoT Cloud
-  temperature_esp32 = temperatureC; // 'temperature' should be the name of the variable configured in the Arduino IoT Cloud.
-
-  // Wait some time before the next reading
-  delay(2000);
+  unsigned long currentMillis = millis();
+  
+  // Check if it's time for another temperature reading
+  if (currentMillis - lastTempMeasurement >= tempInterval) {
+    lastTempMeasurement = currentMillis;
+    float temperature = temperatureRead(); // Replace with the correct function to read your sensor's temperature
+    // Update the temperature variable on Arduino IoT Cloud, if necessary
+    temperature_esp32 = temperature;
+  } 
   
 }
-
 
 /*
   Since RedLed is READ_WRITE variable, onRedLedChange() is
@@ -68,3 +70,9 @@ void onRedLedChange()  {
   // Update the LED state based on the value of ledState
   digitalWrite(ledPin, red_led ? HIGH : LOW);
 }
+
+
+
+
+
+
