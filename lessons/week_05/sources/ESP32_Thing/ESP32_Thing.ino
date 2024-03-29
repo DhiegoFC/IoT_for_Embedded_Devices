@@ -6,6 +6,9 @@
 
   The following variables are automatically generated and updated when changes are made to the Thing
 
+  float humidity;
+  float pressure;
+  float temperature;
   float temperature_esp32;
   bool red_led;
 
@@ -15,10 +18,14 @@
 */
 
 #include "thingProperties.h"
+#include <Adafruit_Sensor.h>
+#include <Adafruit_BME280.h>
 
-const int ledPin = 22; // Replace with the pin your LED is connected to
+const int ledPin = 15; // Replace with the pin your LED is connected to
 unsigned long lastTempMeasurement = 0;
 const long tempInterval = 10000; // Interval between temperature readings, e.g., 10 seconds
+
+Adafruit_BME280 bme;
 
 void setup() {
   // Initialize serial and wait for port to open:
@@ -32,6 +39,8 @@ void setup() {
   // Initialize the LED's state to off
   pinMode(ledPin, OUTPUT);
   digitalWrite(ledPin, LOW);
+
+  bme.begin(0x76);
 
   // Connect to Arduino IoT Cloud
   ArduinoCloud.begin(ArduinoIoTPreferredConnection);
@@ -56,9 +65,10 @@ void loop() {
   if (currentMillis - lastTempMeasurement >= tempInterval) {
     lastTempMeasurement = currentMillis;
     float temperature = temperatureRead(); // Replace with the correct function to read your sensor's temperature
-    // Update the temperature variable on Arduino IoT Cloud, if necessary
+    // Update the ESP32 temperature variable on Arduino IoT Cloud, if necessary
     temperature_esp32 = temperature;
-  } 
+   
+  }
   
 }
 
@@ -70,6 +80,9 @@ void onRedLedChange()  {
   // Update the LED state based on the value of ledState
   digitalWrite(ledPin, red_led ? HIGH : LOW);
 }
+
+
+
 
 
 
