@@ -61,7 +61,7 @@ Pinout HC-BM280:
 
 === The Whole circuit on breadboard
 
-image::../../../../images/Whole_Circuit.jpg[Whole Circuit]
+image::../../../../images/Whole_Circuit.jpg[Whole Circuit, width=300, height=200]
 
 Use GPIO15 to control RED LED.
 
