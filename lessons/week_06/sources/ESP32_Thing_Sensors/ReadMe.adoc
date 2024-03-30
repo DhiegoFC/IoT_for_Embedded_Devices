@@ -46,7 +46,7 @@ Pinout HC-SR04:
 
 === Assemble the ESP32 to HC-SR04 Sensor
 
-image::../../../../images/BME280.png[ESP32 BME280]
+image::../../../../images/ESP32_BME280.png[ESP32 BME280]
 
 Pinout HC-BM280:
 |===
