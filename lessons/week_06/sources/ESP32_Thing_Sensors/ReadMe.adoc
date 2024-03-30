@@ -15,8 +15,7 @@ ESP32 connected to HC-SR04 and BME280 sensors, and also a red led, to be integra
 
 == Step 2: Assemble the sensors, the red led and esp32 on a breadboard.
 
-=== BOM
-The materials you need for this project.
+=== The materials you need for this project.
 
 |===
 | **ID** | **Part name**        | **Quantity**
