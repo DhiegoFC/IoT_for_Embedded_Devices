@@ -10,8 +10,8 @@ ESP32 connected to HC-SR04 and BME280 sensors, and also a red led, to be integra
 
 == Step 1: Arduino IoT Cloud
 
-=== Step 1.1: Create a Esp32 Thing on Arduino IoT Cloud.
-=== Step 1.2: Connected the variables to the ESP32 Thing on Arduino IoT Cloud.
+* Create a Esp32 Thing on Arduino IoT Cloud.
+* Connected the variables to the ESP32 Thing on Arduino IoT Cloud.
 
 == Step 2: Assemble the sensors, the red led and esp32 on a breadboard.
 
@@ -27,7 +27,7 @@ The materials you need for this project.
 | S2 | HC-SR04          | 1           
 |===
 
-image::images/ESP32_pinout.png[ESP32 Pinout]
+image::../../../../images/ESP32_pinout[ESP32 Pinout]
 ![ESP32 Pinout](../../../../images/ESP32_pinout)
   ../../../../images/ESP32_pinout.jpg)
 Assemble the circuit following the diagram layout.png attached to the sketch
