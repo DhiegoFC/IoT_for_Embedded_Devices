@@ -27,10 +27,10 @@ The materials you need for this project.
 | S2 | HC-SR04          | 1           
 |===
 
-image::../../../../images/ESP32_pinout[ESP32 Pinout]
-![ESP32 Pinout](../../../../images/ESP32_pinout)
-  ../../../../images/ESP32_pinout.jpg)
-Assemble the circuit following the diagram layout.png attached to the sketch
+Assemble the circuit following the ESP32 pinout
+
+image::../../../images/ESP32_pinout[ESP32 Pinout]
+
 
 == Step 3: Download the files in this project.
 
