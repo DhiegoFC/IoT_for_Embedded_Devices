@@ -27,9 +27,13 @@ The materials you need for this project.
 | S2 | HC-SR04          | 1           
 |===
 
-Assemble the circuit following the ESP32 pinout
+=== Assemble the circuit following the ESP32 pinout
 
 image::../../../../images/ESP32_pinout.jpg[ESP32 Pinout]
+
+=== Assemble the ESP32 to HC-SR04 Sensor
+
+image::../../../../images/ESP32_HCSR04.png[ESP32 HC-SR04]
 
 
 == Step 3: Download the files in this project.
