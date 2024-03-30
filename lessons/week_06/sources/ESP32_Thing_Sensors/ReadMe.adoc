@@ -33,7 +33,7 @@ image::../../../../images/ESP32_pinout.jpg[ESP32 Pinout]
 
 === Assemble the ESP32 to HC-SR04 Sensor
 
-image::../../../../images/ESP32_HCSR04.png[ESP32 HC-SR04]
+image::../../../../images/ESP32_HCSR04.png[ESP32 HC-SR04, , width=600, height=300]
 
 Pinout HC-SR04:
 |===
@@ -61,7 +61,7 @@ Pinout HC-BM280:
 
 === The Whole circuit on breadboard
 
-image::../../../../images/Whole_Circuit.jpg[Whole Circuit, width=300, height=400]
+image::../../../../images/Whole_Circuit.jpg[Whole Circuit, width=400, height=500]
 
 Use GPIO15 to control RED LED.
 
