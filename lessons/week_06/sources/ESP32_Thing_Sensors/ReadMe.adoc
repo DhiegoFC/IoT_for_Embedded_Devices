@@ -1,55 +1,57 @@
 :Author: dhiegofc
-:Email:
+:Email: dhiego.fernande@unesp.br
 :Date: 29/03/2024
-:Revision: version#
+:Revision: 1
 :License: Public Domain
 
-= Project: {Project}
+= Project: ESP32 Connected to HC-SR04 and BME280 Sensors Integrated to Arduino IoT Cloud
 
-Describe your project
+ESP32 connected to HC-SR04 and BME280 sensors, and also a red led, to be integrated to Arduino IoT Cloud.
 
-== Step 1: Installation
-Please describe the steps to install this project.
+== Step 1: Arduino IoT Cloud
 
-For example:
+1.1 Create a Esp32 Thing on Arduino IoT Cloud.
+1.2 Connected the variables to the ESP32 Thing on Arduino IoT Cloud.
 
-1. Open this file
-2. Edit as you like
-3. Release to the World!
+== Step 2: Assemble the sensors, the red led and esp32 on a breadboard.
 
-== Step 2: Assemble the circuit
+=== BOM
+The materials you need for this project.
 
+|===
+| ID | Part name        | Quantity
+| R1 | Resistor         | 1       
+| L1 | Red LED          | 1        
+| E1 | ESP32            | 1
+| S1 | BME280           | 1
+| S2 | HC-SR04          | 1           
+|===
+
+![ESP32 Pinout](../../../../images/ESP32_pinout.jpg)
 Assemble the circuit following the diagram layout.png attached to the sketch
 
-== Step 3: Load the code
-
-Upload the code contained in this sketch on to your board
+== Step 3: Download the files in this project.
 
 === Folder structure
 
 ....
- sketch123                => Arduino sketch folder
-  ├── sketch123.ino       => main Arduino file
-  ├── schematics.png      => (optional) an image of the required schematics
-  ├── layout.png          => (optional) an image of the layout
-  └── ReadMe.adoc         => this file
+ ESP32_Thing_Sensors                => Arduino sketch folder
+  ├── ESP32_Thing_Sensors.ino       => main Arduino file
+  ├── thingProperties.h             => thing Properties to connect to Arduino IoT Cloud
+  └── ReadMe.adoc                   => this file
 ....
+
+== Step 4: Run ESP32_Thing_Sensors.ino on Arduino IDE.
+
+== Step 5: Observe the sensor variables and control the red led on Arduino IoT Cloud.
 
 === License
 This project is released under a {License} License.
 
 === Contributing
-To contribute to this project please contact: 
+To contribute to this project please contact: dhiego.fernandes@unesp.br
 
-=== BOM
-Add the bill of the materials you need for this project.
 
-|===
-| ID | Part name      | Part number | Quantity
-| R1 | 10k Resistor   | 1234-abcd   | 10       
-| L1 | Red LED        | 2345-asdf   | 5        
-| A1 | Arduino Zero   | ABX00066    | 1        
-|===
 
 
 === Help
