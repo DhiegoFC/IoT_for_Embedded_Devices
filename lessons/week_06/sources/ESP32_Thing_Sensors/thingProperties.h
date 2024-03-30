@@ -5,9 +5,9 @@
 
 const char DEVICE_LOGIN_NAME[]  = "b4f69619-ba80-4a9b-ad3d-bb95f9795548";
 
-const char SSID[]               = "Xiaomi11T";    // Network SSID (name)
-const char PASS[]               = "dhiegofc12345";    // Network password (use for WPA, or use as key for WEP)
-const char DEVICE_KEY[]  = "zRZ2oNwOMvuQFyct7nq6J9f0F";    // Secret device password
+const char SSID[]               = "SSID";    // Network SSID (name)
+const char PASS[]               = "PASSWD";    // Network password (use for WPA, or use as key for WEP)
+const char DEVICE_KEY[]  = "KEY";    // Secret device password
 
 void onRedLedChange();
 

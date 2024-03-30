@@ -19,7 +19,7 @@ ESP32 connected to HC-SR04 and BME280 sensors, and also a red led, to be integra
 The materials you need for this project.
 
 |===
-| ID | Part name        | Quantity
+| **ID** | **Part name**        | **Quantity**
 | R1 | Resistor         | 1       
 | L1 | Red LED          | 1        
 | E1 | ESP32            | 1
@@ -35,6 +35,7 @@ image::../../../../images/ESP32_pinout.jpg[ESP32 Pinout]
 
 image::../../../../images/ESP32_HCSR04.png[ESP32 HC-SR04]
 
+Pinout HC-SR04:
 |===
 | **HC-SR04** | **ESP32**       
 | VCC     | VCC          
@@ -43,6 +44,21 @@ image::../../../../images/ESP32_HCSR04.png[ESP32 HC-SR04]
 | GND     | GND                             
 |===
 
+=== Assemble the ESP32 to HC-SR04 Sensor
+
+image::../../../../images/BME280.png[ESP32 BME280]
+
+Pinout HC-BM280:
+|===
+| **HC-SR04** | **ESP32**       
+| VCC     | VCC 
+| GND     | GND           
+| SCL     | GPIO22              
+| SDA     | GPIO21
+| CSB     | -
+| SDO     | -
+                           
+|===
 
 == Step 3: Download the files in this project.
 
