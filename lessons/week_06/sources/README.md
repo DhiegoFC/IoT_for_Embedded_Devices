@@ -5,6 +5,6 @@
 * Assemble your circuit on a breadboard using the specified components.
 * Finally, once the ESP32 is integrated with the Arduino IoT Cloud, you can control the LED and monitor the sensor readings.
 
-**WARNING**:You can read [this guidance](sources/ReadMed.adoc) to assembly the beardboard.
+**WARNING**:You can read [this guidance](ESP32_Thing_Sensors/ReadMed.adoc) to assembly the beardboard.
 
 
