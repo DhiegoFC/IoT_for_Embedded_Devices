@@ -28,7 +28,7 @@ The materials you need for this project.
 |===
 
 image::images/ESP32_pinout.png[ESP32 Pinout]
-![ESP32 Pinout](./images/ESP32_pinout)
+![ESP32 Pinout](../../../../images/ESP32_pinout)
   ../../../../images/ESP32_pinout.jpg)
 Assemble the circuit following the diagram layout.png attached to the sketch
 
