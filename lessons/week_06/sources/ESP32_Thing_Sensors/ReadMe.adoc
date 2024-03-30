@@ -80,6 +80,10 @@ Use GPIO15 to control the Red Led.
 
 == Step 5: Observe the sensor variables and control the red led on Arduino IoT Cloud.
 
+== Observation
+
+Other relevant informations below:
+
 === License
 This project is released under a {License} License.
 
