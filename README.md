@@ -20,6 +20,9 @@ This course is designed to foster the creation and development of an IoT project
 * Excellent understanding of Network Stack Protocols.
 * A strong inclination towards innovation and the creation of new technologies.
 
+#### Contact
+If you have any further questions, please contact me: dhiego.fernandes@unesp.br
+
 **Week 01:** 
 * Course Presentation <a href="lessons/week_01/week_01_Course_Presentation_IoT_Dhiego.pdf"> <img src="images/pdf_logo1.png" alt="PDF" width="23" height="23" /> </a>
 * OSI Model <a href="lessons/week_01/week_01_OSI_Model_IoT_Dhiego.pdf"> <img src="images/pdf_logo1.png" alt="PDF" width="23" height="23" /> </a>
