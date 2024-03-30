@@ -36,7 +36,7 @@ image::../../../../images/ESP32_pinout.jpg[ESP32 Pinout]
 image::../../../../images/ESP32_HCSR04.png[ESP32 HC-SR04]
 
 |===
-| HC-SR04 | ESP32       
+| **HC-SR04** | **ESP32**       
 | VCC     | VCC          
 | Trig    | GPIO4              
 | Echo    | GPIO2
