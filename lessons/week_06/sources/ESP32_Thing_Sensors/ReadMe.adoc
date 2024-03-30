@@ -56,9 +56,14 @@ Pinout HC-BM280:
 | SCL     | GPIO22              
 | SDA     | GPIO21
 | CSB     | -
-| SDO     | -
-                           
+| SDO     | -                        
 |===
+
+=== The Whole circuit on breadboard
+
+image::../../../../images/Whole_Circuit.jpg[Whole Circuit]
+
+Use GPIO15 to control RED LED.
 
 == Step 3: Download the files in this project.
 
