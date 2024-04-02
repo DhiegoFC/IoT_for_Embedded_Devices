@@ -11,9 +11,6 @@ const char DEVICE_KEY[]  = "secretdevicepassword";    // Secret device password
 
 void onRedLedChange();
 
-float humidity;
-float pressure;
-float temperature;
 float temperature_esp32;
 bool red_led;
 
@@ -22,6 +19,7 @@ void initProperties(){
   ArduinoCloud.setBoardId(DEVICE_LOGIN_NAME);
   ArduinoCloud.setSecretDeviceKey(DEVICE_KEY);
   ArduinoCloud.addProperty(temperature_esp32, READ, ON_CHANGE, NULL);
+  ArduinoCloud.addProperty(red_led, READWRITE, ON_CHANGE, onRedLedChange);
 
 }
 
