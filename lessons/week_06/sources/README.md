@@ -7,4 +7,6 @@
 
 **WARNING**:You can read [this guidance](ESP32_Thing_Sensors/ReadMe.adoc) to assembly the beardboard.
 
+**Note**: For guidance on integrating the ESP32 with the Arduino IoT Cloud, consider watching this instructional video on <a href="https://www.youtube.com/watch?v=gpB4600keWA"> <img src="../../../images/youtube.jpg" alt="youtube" width="80" height="17" /> </a>
+
 
