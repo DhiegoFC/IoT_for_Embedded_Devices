@@ -24,9 +24,10 @@ void ConnectionMqtt::connectWiFi() {
         Serial.println(" FAILED!!!");
         delay(5000);
     }
+    Serial.print("Connected to Wi-Fi ");
+    Serial.print(_ssid);
+    Serial.println("!!!");
 
-    Serial.println("");
-    Serial.println("WiFi Connected!!!");
 }
 
 void ConnectionMqtt::connectMQTT() {
@@ -40,13 +41,19 @@ void ConnectionMqtt::connectMQTT() {
             Serial.print(_mqttServer);
             Serial.println("!!!");
         } else {
-            Serial.print("Failed, rc=");
-            Serial.print(_client.state());
-            Serial.println("");
-            Serial.print(" Trying again Connection to MQTT Broker ");
-            Serial.print(_mqttServer);
-            Serial.println(" in 5 seconds");
-            delay(5000);
+            if (WiFi.status() == WL_CONNECTED){
+              Serial.print("Failed, rc=");
+              Serial.print(_client.state());
+              Serial.println("");
+              Serial.print(" Trying again Connection to MQTT Broker ");
+              Serial.print(_mqttServer);
+              Serial.println(" in 5 seconds");
+              delay(5000);
+            }
+            else{
+              Serial.println("MQTT Broker disconnected due to no Wi-Fi connectivity...");
+              ConnectionMqtt::connectWiFi();
+            }
         }
     }
 }
