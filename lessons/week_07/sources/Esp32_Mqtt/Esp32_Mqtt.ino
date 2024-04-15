@@ -8,7 +8,6 @@ const int mqttPort = 1883;
 const char* mqttUser = "icts";
 const char* mqttPassword = "icts12345";
 
-//ConnectionMqtt connectionMqtt(ssid, password, mqttServer, mqttPort);
 ConnectionMqtt connectionMqtt(ssid, password, mqttServer, mqttPort, mqttUser, mqttPassword);
 
 void setup() {
