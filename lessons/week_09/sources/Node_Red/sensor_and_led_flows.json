@@ -1,0 +1,421 @@
+[
+    {
+        "id": "0e800f94f55843b0",
+        "type": "tab",
+        "label": "Sensor Data",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a9d7e14ed5ba3658",
+        "type": "tab",
+        "label": "Led Flow",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "79993c369cc6f9ee",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "127.0.0.1",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "714a246cc9919333",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "sensor_data",
+        "name": "influxdb",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.x",
+        "url": "http://localhost:8086",
+        "timeout": "10",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "b1de4591d8fefa28",
+        "type": "ui_tab",
+        "name": "ESP32",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "dbc3ff85eacbb894",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "811866d16d44048c",
+        "type": "ui_group",
+        "name": "LED",
+        "tab": "b1de4591d8fefa28",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2de214b44490199c",
+        "type": "mqtt in",
+        "z": "0e800f94f55843b0",
+        "name": "",
+        "topic": "home/sensor_data",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "79993c369cc6f9ee",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 120,
+        "wires": [
+            [
+                "d38deb309684aa3a",
+                "6559049a46a21cf5"
+            ]
+        ]
+    },
+    {
+        "id": "d38deb309684aa3a",
+        "type": "debug",
+        "z": "0e800f94f55843b0",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "6559049a46a21cf5",
+        "type": "influxdb out",
+        "z": "0e800f94f55843b0",
+        "influxdb": "714a246cc9919333",
+        "name": "sensor data InfluxdDB",
+        "measurement": "sensor_data",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 400,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "719c19117dbc44f7",
+        "type": "ui_switch",
+        "z": "a9d7e14ed5ba3658",
+        "name": "",
+        "label": "LED",
+        "tooltip": "",
+        "group": "811866d16d44048c",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "payload",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "ON",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "OFF",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 110,
+        "y": 100,
+        "wires": [
+            [
+                "af0fb832784fb18a"
+            ]
+        ]
+    },
+    {
+        "id": "af0fb832784fb18a",
+        "type": "mqtt out",
+        "z": "a9d7e14ed5ba3658",
+        "name": "",
+        "topic": "led/control",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "79993c369cc6f9ee",
+        "x": 310,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "047d6171ddaa546a",
+        "type": "mqtt out",
+        "z": "a9d7e14ed5ba3658",
+        "name": "",
+        "topic": "led/control",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "79993c369cc6f9ee",
+        "x": 350,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "f160a8f095ebaa2f",
+        "type": "inject",
+        "z": "a9d7e14ed5ba3658",
+        "name": "Led ON",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "x": 110,
+        "y": 220,
+        "wires": [
+            [
+                "047d6171ddaa546a"
+            ]
+        ]
+    },
+    {
+        "id": "38774ca73ea66b0d",
+        "type": "mqtt out",
+        "z": "a9d7e14ed5ba3658",
+        "name": "",
+        "topic": "led/control",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "79993c369cc6f9ee",
+        "x": 350,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "212966c90fe26f54",
+        "type": "inject",
+        "z": "a9d7e14ed5ba3658",
+        "name": "Led OFF",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "x": 120,
+        "y": 320,
+        "wires": [
+            [
+                "38774ca73ea66b0d"
+            ]
+        ]
+    },
+    {
+        "id": "ab0c57fb5b64c232",
+        "type": "mqtt in",
+        "z": "a9d7e14ed5ba3658",
+        "name": "",
+        "topic": "led/control",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "79993c369cc6f9ee",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 100,
+        "y": 420,
+        "wires": [
+            [
+                "05b5b6f0cd7f0433"
+            ]
+        ]
+    },
+    {
+        "id": "05b5b6f0cd7f0433",
+        "type": "debug",
+        "z": "a9d7e14ed5ba3658",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 420,
+        "wires": []
+    }
+]
