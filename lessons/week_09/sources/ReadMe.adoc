@@ -76,17 +76,25 @@ Use GPIO15 to control the Red Led.
 
 == Step 3: Create a Linux Virtual Machine in VirtualBox.
 
-=== Step 3.1: Install Node-Red, InfluxDB and Grafana on your Linux VM.
+=== Step 3.1: Instalation 
 
-=== Step 3.2: Create the sensor_data database in InfluxDB.
+Install Node-Red, InfluxDB and Grafana on your Linux VM.
 
-=== Step 3.3: Use the link:Node_Red/sensor_and_led_flows.json[provided Node-Red Flows] to receive MQTT messages from ESP32, store sensor measurements in the database, and control the LED from the Node-Red dashboard. Refer to the figure below:
+=== Step 3.2: InfluxDB
+
+Create the sensor_data database in InfluxDB.
+
+=== Step 3.3: Node-Red Flows
+
+Use the link:Node_Red/sensor_and_led_flows.json[provided Node-Red Flows] to receive MQTT messages from ESP32, store sensor measurements in the database, and control the LED from the Node-Red dashboard. Refer to the figure below:
 
 image::../../../images/Node_Red_ui.jpg[Node Red Flows, width=550, height=250]
 
 **WARNING**: Do NOT forget to update the InfluxDB address in the sensor data flow to match the IP of your Linux VM's network bridge interface.
 
-=== Step 3.4 Connect Grafana to the sensor_data database and visualize measurements from each sensor (temperature, temperature_esp32, humidity, pressure, and distance). See the figure below:
+=== Step 3.4: Grafana
+
+Connect Grafana to the sensor_data database and visualize measurements from each sensor (temperature, temperature_esp32, humidity, pressure, and distance). See the figure below:
 
 image::../../../images/grafana_dashboard.png[Grafana Dashboard]
 
