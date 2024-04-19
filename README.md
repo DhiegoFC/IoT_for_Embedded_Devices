@@ -48,5 +48,5 @@ If you have any further questions, please contact me: dhiego.fernandes@unesp.br
 * Exercise: [ESP32 Connected to HC-SR04 and BME280 Sensors Integrated to Arduino IoT Cloud](lessons/week_06/sources)
 * Exercise: [ESP32 Connected to an Access Point with MQTT Broker](lessons/week_07/sources)
 
-**Week 09: ESP32, MQTT, NodeRedgit InfluxDB and Grafana**
+**Week 09: ESP32, MQTT, NodeRed, InfluxDB and Grafana**
 * Project: [ESP32 with Embedded Sensors Connected to a Linux Virtual Machine Featuring Node-Red, InfluxDB, and Grafana via a Wi-Fi Access Point Embedded with an MQTT Broker](lessons/week_09/sources)
