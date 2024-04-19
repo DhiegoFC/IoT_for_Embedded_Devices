@@ -4,7 +4,7 @@
 :Revision: 1
 :License: Public Domain
 
-= Project: ESP32 with Embedded Sensors Connected via WiFi AP embedded with a MQTT broker to a Linux Virtual Machine Featuring Node-Red, InfluxDB and Grafana 
+= Project: ESP32 with Embedded Sensors Connected to a Linux Virtual Machine Featuring Node-Red, InfluxDB, and Grafana via a Wi-Fi Access Point Embedded with an MQTT Broker 
 
 The ESP32, equipped with HC-SR04 and BME280 sensors and a red LED, connects to the internet via a Wi-Fi access point that includes an embedded MQTT broker. 
 It transmits data from the sensors and the state of the red LED to the MQTT broker. A Linux Virtual Machine server featuring Node-Red, InfluxDB, and Grafana then monitors this sensor data and controls the LED's status.
