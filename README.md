@@ -3,7 +3,7 @@
 ## Institute of Science and Technology of Sorocaba (ICTS)
 ### Department of Control and Automation Engineering
 #### IoT for Embedded Devices
-Public Repository for 'IoT for Embedded Devices', a graduate course offered by the Department of Control and Automation Engineering at the São Paulo State University (UNESP), Sorocaba campus
+Public Repository for 'IoT for Embedded Devices', a graduate course offered by the Department of Control and Automation Engineering at the São Paulo State University (UNESP), Institute of Science and Technology of Sorocaba (ICTS)
 
 #### Objectives:
 * Understand the foundational and advanced concepts of the Internet of Things (IoT).
@@ -48,5 +48,5 @@ If you have any further questions, please contact me: dhiego.fernandes@unesp.br
 * Exercise: [ESP32 Connected to HC-SR04 and BME280 Sensors Integrated to Arduino IoT Cloud](lessons/week_06/sources)
 * Exercise: [ESP32 Connected to an Access Point with MQTT Broker](lessons/week_07/sources)
 
-**Week 09: ESP32, MQTT, NodeRed InfluxDB and Grafana**
+**Week 09: ESP32, MQTT, NodeRedgit InfluxDB and Grafana**
 * Exercise: [ESP32 with Embedded Sensors Connected via WiFi AP embedded with a MQTT broker to a Linux Virtual Machine Featuring Node-Red, InfluxDB and Grafana ](lessons/week_09/sources)
