@@ -98,6 +98,11 @@ Connect Grafana to the sensor_data database and visualize measurements from each
 
 image::../../../images/grafana_dashboard.png[Grafana Dashboard]
 
+== Step 4: ESP32 Sketch code 
+
+Finally, after assembling the sensor to ESP32 and Creting Linux VM in VirtualBox, it is necessary to compile and upload link:ESP32_Mqtt_NodeRed_Influx_Grafana/[the provided Sketch code] to ESP32.
+It is up to you to connect ESP32 (SSID IoT_ES) to the provided Wi-Fi AP embedded with MQTT Broker. As you wish, you can connect ESP32 to your Wi-Fi AP and another MQTT Broker server. 
+
 
 **Note**: For guidance on integrating the ESP32 to an Linux Virtual Machine server Featuring Node-Red, InfluxDB, and Grafana, consider watching this instructional video on link:https://www.youtube.com/watch?v=_DO2wHI6JWQ[image:../../../images/youtube.jpg[youtube, width="80", height="17"]]
 
