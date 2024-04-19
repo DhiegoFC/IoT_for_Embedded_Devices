@@ -49,4 +49,4 @@ If you have any further questions, please contact me: dhiego.fernandes@unesp.br
 * Exercise: [ESP32 Connected to an Access Point with MQTT Broker](lessons/week_07/sources)
 
 **Week 09: ESP32, MQTT, NodeRedgit InfluxDB and Grafana**
-* Exercise: [ESP32 with Embedded Sensors Connected via WiFi AP embedded with a MQTT broker to a Linux Virtual Machine Featuring Node-Red, InfluxDB and Grafana ](lessons/week_09/sources)
+* Project: [ESP32 with Embedded Sensors Connected via WiFi AP embedded with a MQTT broker to a Linux Virtual Machine Featuring Node-Red, InfluxDB and Grafana ](lessons/week_09/sources)
