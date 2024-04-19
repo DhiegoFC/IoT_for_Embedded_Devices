@@ -1,7 +1,7 @@
-# ESP32 with Embedded Sensors Connected to a Linux Virtual Machine Featuring Node-Red, InfluxDB and Grafana
+# ESP32 with Embedded Sensors Connected via WiFi AP embedded with a MQTT broker to a Linux Virtual Machine Featuring Node-Red, InfluxDB and Grafana 
 
 * Assemble the sensors to the ESP32. You can read [this guidance](Esp32_NodeRed_Influxdb_Grafana/ReadMe.adoc) to assembly the beardboard.
-* Use the [provided ESP32 code](Esp32_NodeRed_Influxdb_Grafana/) to connect ESP32 to the provided Wi-Fi AP embedded with MQTT broker. Otherwise, you can change Esp32 code settings to connect ESP32 to your WiFi Acccess Point and to another MQTT Broker. 
+* Use the [provided ESP32 code](Esp32_NodeRed_Influxdb_Grafana/) to connect ESP32 to the provided Wi-Fi AP embedded with MQTT broker. Otherwise, you can change Esp32 code settings to connect it to your WiFi Acccess Point and to another MQTT Broker, as you wish. 
 * Create a Linux Virtual Machine in VirtualBox. Configure one of its network interface as a bridge to receive an IP address from your PC's network.
 * Install Node-Red, InfluxDB and Grafana on your Linux VM.
 * Create the sensor_data database in InfluxDB.
