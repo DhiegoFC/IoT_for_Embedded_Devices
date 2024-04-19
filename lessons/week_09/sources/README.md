@@ -7,7 +7,7 @@
 * Create the sensor_data database on InfluxDB.
 * Use the [provided Node-Red Flows](Node_Red/sensor_and_led_flows.json) to receive MQTT messages from ESP32 to store the sensor measurements on database, and also to control the LED from Node-Red dashboard. Check figure below.
 
-<img src="../../../images/Node_Red_ui.jpg" width="200" height="150">
+<img src="../../../images/Node_Red_ui.jpg" width="300" height="300">
 * Connect Grafana to the sensor_data database and visualize each sensor measurements on the screen (temperature, tempeture_esp32, humidity, pressure and distance). See the figure below.
 
 ![Grafana dashboard](../../../images/grafana_dashboard.png)
