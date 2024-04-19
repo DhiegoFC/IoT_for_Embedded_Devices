@@ -23,6 +23,9 @@ float temperature;
 
 ConnectionMqtt connectionMqtt(ssid, password, mqttServer, mqttPort, mqttUser, mqttPassword);
 
+/*
+  Setup - Initial Configuration 
+*/
 void setup() {
   Serial.begin(9600);
   // Sets the trigPin as an Output and echoPin as an Input (HC-SR04 Sensor)
@@ -65,7 +68,7 @@ void getSensorsBME280(){
 }
 
 /*
-  Return the sensorS data JSON
+  Return the sensors data in JSON format
 */
 String createSensorDataJson() {
   String jsonOutput;  
@@ -89,26 +92,26 @@ void ledControlCallback(char* topic, byte* payload, unsigned int length) {
     payload[length] = '\0';
     String message = String((char*)payload);
     if (message.equalsIgnoreCase("ON")) {
-        digitalWrite(ledPin, HIGH);  // Ligar LED
+        digitalWrite(ledPin, HIGH);  // Turn the Led ON
     } else if (message.equalsIgnoreCase("OFF")) {
-        digitalWrite(ledPin, LOW);  // Desligar LED
+        digitalWrite(ledPin, LOW);  // Turn the Led OFF
     }
 }
 
+/*
+  Main Loop
+*/
 void loop() { 
   unsigned long currentMillis = millis();
-  // Check if MQTT Broker is connected.
-  //if (!connectionMqtt.isConnected()) {
-    //connectionMqtt.connectMQTT();
-    // Check if it's time for another sensors reading 
-    if (currentMillis - lastTempMeasurement >= tempInterval) {
-      lastTempMeasurement = currentMillis;
-      getSensorHCSR04();
-      getSensorsBME280();
-      String sensor_data = createSensorDataJson();
-      connectionMqtt.publish("home/sensor_data", sensor_data.c_str());
-    }
-  //}
+
+  // Check if it's time for another sensors reading 
+  if (currentMillis - lastTempMeasurement >= tempInterval) {
+    lastTempMeasurement = currentMillis;
+    getSensorHCSR04();
+    getSensorsBME280();
+    String sensor_data = createSensorDataJson();
+    connectionMqtt.publish("home/sensor_data", sensor_data.c_str());
+  }
 
   if (!connectionMqtt.isConnected()) {
     connectionMqtt.connectMQTT();
