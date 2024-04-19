@@ -4,7 +4,7 @@
 :Revision: 1
 :License: Public Domain
 
-= Project: ESP32 embedded with HC-SR04 and BME280 Sensors connected to an server featuring Node-Red, InfluxDB and Grafana.
+= Project: ESP32 with Embedded Sensors Connected via WiFi AP embedded with a MQTT broker to a Linux Virtual Machine Featuring Node-Red, InfluxDB and Grafana 
 
 ESP32 connected to HC-SR04 and BME280 sensors, and also a red led, to be integrated to Arduino IoT Cloud.
 
