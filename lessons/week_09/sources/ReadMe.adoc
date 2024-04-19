@@ -91,7 +91,7 @@ image::../../../images/Node_Red_ui.jpg[Node Red Flows, width=550, height=250]
 image::../../../images/grafana_dashboard.png[Grafana Dashboard]
 
 
-**Note**: For guidance on integrating the ESP32 to an Linux Virtual Machine server Featuring Node-Red, InfluxDB, and Grafana, consider watching this instructional video on image::../../../images/youtube.jpg[youtube, link="https://www.youtube.com/watch?v=_DO2wHI6JWQ", width="80", height="17"]
+**Note**: For guidance on integrating the ESP32 to an Linux Virtual Machine server Featuring Node-Red, InfluxDB, and Grafana, consider watching this instructional video on link:https://www.youtube.com/watch?v=_DO2wHI6JWQ[image:../../../images/youtube.jpg[youtube, width="80", height="17"]]
 
 == License
 This project is released under Public License.
