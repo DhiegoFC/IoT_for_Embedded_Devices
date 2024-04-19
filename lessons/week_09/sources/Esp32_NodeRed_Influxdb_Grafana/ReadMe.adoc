@@ -4,16 +4,11 @@
 :Revision: 1
 :License: Public Domain
 
-= Project: ESP32 Connected to HC-SR04 and BME280 Sensors connected to an server featuring Node-Red, InfluxDB and Grafana.
+= Project: ESP32 embedded with HC-SR04 and BME280 Sensors connected to an server featuring Node-Red, InfluxDB and Grafana.
 
 ESP32 connected to HC-SR04 and BME280 sensors, and also a red led, to be integrated to Arduino IoT Cloud.
 
-== Step 1: Arduino IoT Cloud
-
-* Create a Esp32 Thing on Arduino IoT Cloud.
-* Connected the variables to the ESP32 Thing on Arduino IoT Cloud.
-
-== Step 2: Assemble the sensors, the red led and esp32 on a breadboard.
+== Step 1: Assemble the sensors, the red led and esp32 on a breadboard.
 
 === The materials you need for this project.
 
@@ -64,7 +59,7 @@ image::../../../../images/Whole_Circuit.jpg[Whole Circuit, width=400, height=520
 
 Use GPIO15 to control the Red Led.
 
-== Step 3: Download the files in this project.
+== Step 2: Download the files in this project.
 
 === Folder structure
 
