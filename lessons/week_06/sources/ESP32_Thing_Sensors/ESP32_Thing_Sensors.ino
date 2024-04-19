@@ -93,13 +93,12 @@ void getSensorHCSR04() {
 /*
   Get sensors reading from BME280 
 */
-void getSensorsBME280(){ 
-    
-    // Update the sensors reading on Arduino IoT Cloud
-    temperature_esp32 = temperatureRead();;
-    //temperature = bme.readTemperature();
-    pressure = bme.readPressure() / 100.0F;
-    humidity = bme.readHumidity();
+void getSensorsBME280(){    
+  // Update the sensors reading on Arduino IoT Cloud
+  temperature_esp32 = temperatureRead();;
+  //temperature = bme.readTemperature();
+  pressure = bme.readPressure() / 100.0F;
+  humidity = bme.readHumidity();
 }
 
 void loop() {
@@ -122,8 +121,8 @@ void loop() {
     // Update the sensors reading on Arduino IoT Cloud
     distanceCm = duration / 58.2;
     String disp = String(distanceCm);
-    Serial.print(disp);
-    Serial.println(" cm");
+    //Serial.print(disp);
+    //Serial.println(" cm");
   }  
 }
 
