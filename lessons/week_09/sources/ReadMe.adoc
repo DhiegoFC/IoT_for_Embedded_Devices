@@ -103,7 +103,7 @@ image::../../../images/grafana_dashboard.png[Grafana Dashboard]
 == Step 4: ESP32 Sketch code 
 
 Finally, after assembling the sensor to ESP32 and Creting Linux VM in VirtualBox, it is necessary to compile and upload link:Esp32_Mqtt_NodeRed_Influxdb_Grafana/[the provided Sketch code] to ESP32.
-It is up to you to connect the ESP32 to the provided Wi-Fi AP (SSID "IoT_ES") embedded with the MQTT Broker. As you wish, you can connect it to your Wi-Fi AP and another MQTT Broker server. 
+It is up to you to connect the ESP32 to the provided Wi-Fi AP (SSID "IoT_ES") embedded with the MQTT Broker. As you wish, you can connect it to your Wi-Fi AP and to another MQTT Broker server. 
 
 
 == License
