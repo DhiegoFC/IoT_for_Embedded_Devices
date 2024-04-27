@@ -1,9 +1,9 @@
 ![ICTS](./images/unesp_sorocaba.jpg)
 # State University of São Paulo (UNESP)
-## Institute of Science and Technology of Sorocaba (ICTS)
+## Institute of Science and Technology, Sorocaba (ICTS)
 ### Department of Control and Automation Engineering
 #### IoT for Embedded Devices
-Public Repository for 'IoT for Embedded Devices', a graduate course offered by the Department of Control and Automation Engineering at the São Paulo State University (UNESP), Institute of Science and Technology of Sorocaba (ICTS)
+Public Repository for 'IoT for Embedded Devices', a graduate course offered by the Department of Control and Automation Engineering at the São Paulo State University (UNESP), Institute of Science and Technology, Sorocaba(ICTS)
 
 #### Objectives:
 * Understand the foundational and advanced concepts of the Internet of Things (IoT).
