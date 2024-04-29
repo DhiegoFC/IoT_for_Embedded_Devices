@@ -53,4 +53,4 @@ If you have any further questions, please contact me: dhiego.fernandes@unesp.br
 
 **Week 10: Low Power Wide Area Network (LPWAN)**
 * LPWAN Presentation <a href="lessons/week_10/week_10_LPWAN_IoT_Dhiego.pdf"> <img src="images/pdf_logo1.png" alt="PDF" width="23" height="23" /> </a>
-* Exercise: [LoRaWAN ChirpStack Server](lesson/week_10/sources)
+* Exercise: [LoRaWAN ChirpStack Server](lessons/week_10/sources)
