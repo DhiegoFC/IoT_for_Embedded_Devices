@@ -1,6 +1,6 @@
 # LoRaWAN ChirpStack Server Setup
 
-- **Install ChirpStack**: Install ChirpStack on your computer. For Windows users, Docker is recommended for the installation process.
+- **Install ChirpStack**: Install ChirpStack on your computer. For Windows users, [Docker](https://www.chirpstack.io/docs/getting-started/docker.html) is recommended for the installation process.
 - **Configure Server Components**: On the ChirpStack server, create a Gateway, Device Profile, and a LoRaWAN application. Ensure to configure your ChirpStack Gateway Bridge to operate on the AU915 frequency band, which is used in Brazil.
 - **Gateway Configuration**: The professor will configure a LoRaWAN Gateway to forward packets to your ChirpStack server.
 - **Device Connection**: The professor will provide the following LoRaWAN end devices for connection to your ChirpStack LoRaWAN server:
