@@ -39,8 +39,10 @@ void ConnectionMqtt::connectMQTT() {
         Serial.print("Connecting to MQTT Broker ");
         Serial.print(_mqttServer);
         Serial.println(" ...");
-
-        if (_client.connect("ESP32Client",  _mqttUser, _mqttPassword)) {
+        String clientId = "ESP32Client-" + String(WiFi.macAddress());
+        //if (_client.connect("ESP32Client",  _mqttUser, _mqttPassword)) {
+        // In order to avoid loss of connectivity using many ESP32 using this same code connected to the same MQTT Broker.
+        if (_client.connect(clientId.c_str(), _mqttUser, _mqttPassword)) {
             Serial.print("Connected to MQTT Broker ");
             Serial.print(_mqttServer);
             Serial.println("!!!");
