@@ -51,6 +51,7 @@ If you have any further questions, please contact me: dhiego.fernandes@unesp.br
 **Week 09: ESP32, MQTT, NodeRed, InfluxDB and Grafana**
 * Project: [ESP32 with Embedded Sensors Connected to a Linux Virtual Machine Featuring Node-Red, InfluxDB, and Grafana via a Wi-Fi Access Point Embedded with an MQTT Broker](lessons/week_09/sources)
 
-**Week 10: Low Power Wide Area Network (LPWAN)**
+**Weeks 10 and 11: Low Power Wide Area Network (LPWAN)**
 * LPWAN Presentation <a href="lessons/week_10/week_10_LPWAN_IoT_Dhiego.pdf"> <img src="images/pdf_logo1.png" alt="PDF" width="23" height="23" /> </a>
 * Exercise: [LoRaWAN ChirpStack Server](lessons/week_10/sources)
+* Exercise: [LoRaWAN ChirpStack Server Integration](lessons/week_11/sources)
