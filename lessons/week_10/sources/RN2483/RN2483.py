@@ -19,7 +19,7 @@ def send_mac_command(ser, cmd):
     return response.decode()
 
 #Inicializa a conexão serial com o dispositivo com comandos mac
-ser_mac = serial.Serial('COM10', 57600)
+ser_mac = serial.Serial('COM6', 57600)
 time.sleep(2)
 
 send_mac_command(ser_mac, "sys reset")
