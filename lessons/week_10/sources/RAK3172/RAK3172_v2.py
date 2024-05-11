@@ -1,7 +1,7 @@
 import time
 import serial
 
-class RK3172:
+class RAK3172:
     def __init__(self, port):
         self.ser = serial.Serial(port, 115200, timeout=10)
         self.config = {
@@ -68,18 +68,18 @@ class RK3172:
         confirm = '1' if message_type == 'C' else '0'
         self.send_at_command(f"AT+CFM={confirm}")
         for i in range(num_messages):
-            #self.ser.timeout = 7 # Define o timeout para 6 segundos apenas para mensagens confirmadas
             cmd = f"AT+DR={self.config['dr']}" # Define Send Message Data Rate
             self.send_at_command(cmd)
             print(f"Sending message {i + 1}")
-            self.send_at_command("AT+SEND=2:1616")
+            self.send_at_command("AT+SEND=2:161616161616161616")
             if message_type == "C":   
                 cnf_response = self.ser.readline().decode().strip()
                 print(cnf_response)
             time.sleep(interval_seconds)
 
 if __name__ == "__main__":
-    lora_module = RK3172('COM4')
+    # Verify RAK3172 USB Port
+    lora_module = RAK3172('COM4')
     if lora_module.configure_device() and lora_module.join_network():
         message_type = input("Enter message type (C for confirmed, U for unconfirmed): ").upper()
         num_messages = int(input("Enter the number of messages to send: "))
