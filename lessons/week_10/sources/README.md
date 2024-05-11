@@ -15,7 +15,7 @@ The professor will provide the following LoRaWAN end devices for connection to b
 ## LoRaWAN Local ChirpStack Server Setup (AU915)
 
 - **Install ChirpStack**: Install ChirpStack on your computer. For Windows users, [Docker](https://www.chirpstack.io/docs/getting-started/docker.html) is recommended.
-- **Configure Docker for AU915 Messages**: If you are using ChirpStack on Windows, update your docker-compose by following [this guide](ChirpStack_AU915). Then, run `docker-compose up` to apply the new configuration. By default, ChirpStack is configured for EU868 messages.
+- **Configure Docker for AU915 Messages**: If you are using ChirpStack on Windows, update your docker-compose by using [this one](ChirpStack_AU915/docker-compose.yml). Then, run `docker-compose up` to apply the new configuration. By default, ChirpStack is configured for EU868 messages.
 - **Configure ChirpStack Server Components**: On the ChirpStack server, create a Gateway using the DEVUEI provided by your professor, a Device Profile for AU915 Frequency Band, a LoRaWAN application, and register devices within the application using the Device EUI also provided by your professor.
 - **Gateway Configuration**: The professor will configure a LoRaWAN Gateway to forward packets to your ChirpStack server.
 
