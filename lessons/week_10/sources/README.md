@@ -8,7 +8,7 @@
 
 ## Device Connection
 The professor will provide the following LoRaWAN end devices for connection to both your local and remote ChirpStack servers:
-- **Milesight Ambience Monitoring Sensor**: This sensor monitors air quality using the LoRaWAN AU915 frequency band. Download its User Guide and Software Tool from [Milesight](https://www.milesight.com/iot/product/lorawan-sensor/am107).
+- **Milesight Ambience Monitoring Sensor**: This sensor monitors air quality using the LoRaWAN AU915 frequency band. Download its User Guide and Software Tool from [Milesight](https://www.milesight.com/iot/product/lorawan-sensor/am107). The Milesight Software Tool's Password is `123456`.
 - **RAK3172 WisDuo LPWAN Module**: This module operates using the LoRaWAN AU915 frequency band. Learn more about its operation through the [AT Commands Manual](https://docs.rakwireless.com/RUI3/Serial-Operating-Modes/AT-Command-Manual/#lorawan-joining-and-sending). Additionally, you can use the [RAK3172 Python Program](RAK3172/RAK3172_v2.py) to send data to the RAK3172 WisDuo Device using AT commands.
 - **RN2483 Microchip**: This device operates on the LoRaWAN EU868 frequency band. Familiarize yourself with its functionality through the [AT Commands Manual](https://ww1.microchip.com/downloads/en/DeviceDoc/40001784B.pdf). You can also use the [RN2483 Python Program](RN2483/RN2483.py) to send data to the RAK3172 WisDuo Device using AT commands.
 
