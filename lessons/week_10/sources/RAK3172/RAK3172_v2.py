@@ -68,7 +68,7 @@ class RAK3172:
         confirm = '1' if message_type == 'C' else '0'
         self.send_at_command(f"AT+CFM={confirm}")
         for i in range(num_messages):
-            cmd = f"AT+DR={self.config['dr']}" # Define Send Message Data Rate
+            cmd = f"AT+DR={self.config['dr']}" # Define Send Message Data Ratecd
             self.send_at_command(cmd)
             print(f"Sending message {i + 1}")
             self.send_at_command("AT+SEND=2:161616161616161616")
