@@ -12,8 +12,12 @@ Public Repository for 'IoT for Embedded Devices', a graduate course offered by t
 * Acquire knowledge about the main communication protocols used by IoT devices for internet access and cloud communication.
 * Initiate and progress IoT projects from conception to development.
 * Enhance abilities to analyze and interpret data from IoT devices.
+
 #### Evaluation:
-This course is designed to foster the creation and development of an IoT project, allowing students to amalgamate theoretical knowledge with practical expertise. It is required that all students' IoT projects be shared on GitHub to contribute to and benefit the wider community.
+This course is designed to foster the creation and development of an IoT project, allowing students to connect theoretical knowledge with practical expertise. It is required that all students' IoT projects be shared on GitHub to contribute to and benefit the wider community.
+
+#### Students' Projects
+All the students's projects developed and created in this course can be found [here](students_projects/sources)
 
 #### Prerequisites:
 * Proficient programming skills in Python and C.
@@ -22,9 +26,6 @@ This course is designed to foster the creation and development of an IoT project
 
 #### Contact
 If you have any further questions, please contact me: dhiego.fernandes@unesp.br
-
-#### Students' Projects
-All the students's projects developed and created can be found [here](students_projects/sources)
 
 **Week 01: Course Presentation and OSI Model Stack** 
 * Course Presentation <a href="lessons/week_01/week_01_Course_Presentation_IoT_Dhiego.pdf"> <img src="images/pdf_logo1.png" alt="PDF" width="23" height="23" /> </a>
